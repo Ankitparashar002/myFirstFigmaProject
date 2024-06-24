@@ -1,0 +1,313 @@
+/* Smooth scroll */
+:root {
+  scroll-behavior: smooth;
+}
+
+/* Fonts */
+:root {
+  --default-font: "Manrope";
+  --fontFamily-grace: "Covered By Your Grace";
+}
+
+/* Global color */
+:root {
+  --color-primary: #ffffff;
+  --color-heading: #1F1E17;
+  --color-paragraph: #878680;
+  --color-greenish: #4BAF47;
+  --color-sub-heading: #EEC044;
+  --categories-bgcolor: #F8F7F0;
+  --footer-primary-color: #A5A49A;
+}
+
+
+body {
+  background-color: var(--color-primary);
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+
+/* section css start */
+
+
+
+.section .section-1-content {
+  display: flex;
+  justify-content: center;
+  padding: 70px 100px;
+}
+
+
+.section .title-container {
+  background-image: url(../photos/Title_background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px;
+
+}
+
+.section .title-container .sub-heading {
+  font-family: var(--default-font);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #FFFFFFB2;
+  letter-spacing: 1.399999976158142px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.section .title-container .heading {
+  font-family: var(--default-font);
+  font-size: 3.125rem;
+  font-weight: 800;
+
+  color: var(--color-primary);
+  text-align: center;
+
+}
+
+.blogs .blog-body {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.blogs .icon-1 {
+  background-color: #C5CE38;
+  padding: 20px 20px;
+  width: 10%;
+  height: 80px;
+  border-radius: 10px;
+  margin-top: -79px;
+  margin-left: 640px;
+
+}
+
+
+.blogs .agriculture-img {
+  height: 375px;
+  border-radius: 10px;
+  object-fit: fill;
+}
+
+
+.blogs .card .cardTitle {
+  font-family: var(--default-font);
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 56px;
+  text-align: left;
+  color: var(--color-heading);
+}
+
+
+.blogs .card .blog-text {
+  font-family: var(--default-font);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: var(--color-paragraph);
+  width: 100%;
+
+}
+
+.blogs .blog-tag {
+  height: 101px;
+  border: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #ECE7E2;
+}
+
+.blog-tag .heading {
+  width: 41.63px;
+  height: 40px;
+  font-family: var(--default-font);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 40px;
+  text-align: left;
+  color: var(--color-heading);
+}
+
+
+.benefits {
+  margin-bottom: 50px;
+}
+
+.benefits img {
+  height: 220px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.benefits .card-body {
+  padding: 20px 0px 0px 0px;
+}
+
+.benefits .benefit-1 .benefitTitle {
+  font-family: var(--default-font);
+  font-size: 1.875rem;
+  font-weight: 800;
+  line-height: 30px;
+  text-align: left;
+  color: var(--color-heading);
+}
+
+.benefit-1 .paragraph {
+  font-family: var(--default-font);
+  font-size: 0.95rem;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: var(--color-paragraph);
+}
+
+.benefit-2 .paragraph {
+  width: 86%;
+  font-family: var(--default-font);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  color: var(--color-heading);
+}
+
+.categories {
+  padding: 30px 0px 25px 0px;
+  border-radius: 10px;
+  background-color: var(--categories-bgcolor);
+  margin-bottom: 20px;
+
+}
+
+.categories h4 {
+  font-family: var(--default-font);
+  font-size: 1.25rem;
+  font-weight: 800;
+  line-height: 30px;
+  text-align: left;
+  color: var(--color-heading);
+  padding-left: 45px;
+}
+
+.categories li a {
+  font-family: var(--default-font);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 40px;
+  text-decoration: none;
+  text-align: left;
+  color: var(--color-paragraph);
+}
+
+.section .accordion-button:not(.collapsed) {
+  color: var(--color-heading);
+  background-color: var(--categories-bgcolor);
+  box-shadow: none;
+}
+
+.section .accordion-button::after {
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20320%20512%22%3E%3C!--!Font%20Awesome%20Free%206.5.2%20by%20%40fontawesome%20-%20https%3A%2F%2Ffontawesome.com%20License%20-%20https%3A%2F%2Ffontawesome.com%2Flicense%2Ffree%20Copyright%202024%20Fonticons%2C%20Inc.--%3E%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M310.6%20233.4c12.5%2012.5%2012.5%2032.8%200%2045.3l-192%20192c-12.5%2012.5-32.8%2012.5-45.3%200s-12.5-32.8%200-45.3L242.7%20256%2073.4%2086.6c-12.5-12.5-12.5-32.8%200-45.3s32.8-12.5%2045.3%200l192%20192z%22%2F%3E%3C%2Fsvg%3E");
+  background-color: #C5CE38;
+  width: 9%;
+  height: 60px;
+  border-radius: 10px;
+  background-position: -136% 49%;
+  background-size: 85%;
+}
+
+.section .accordion-button:not(.collapsed)::after {
+  background-image: none;
+}
+
+.list-accordion .title {
+  padding: 10px 10px 10px 40px;
+  background-color: var(--categories-bgcolor);
+  color: var(--color-heading);
+  font-family: var(--default-font);
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 10px;
+  border-radius: 10px;
+
+}
+
+.list-accordion .title-content {
+  font-family: var(--default-font);
+  font-size: 0.94rem;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  padding-left: 40px;
+  color: var(--color-paragraph);
+}
+
+
+
+
+.need-help {
+  background-image: url(../photos/need-help.jpg);
+  padding: 41px 0px 50px 0px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.need-help .heading {
+  font-family: var(--default-font);
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 30px;
+  text-align: center;
+  color: var(--color-primary);
+
+}
+
+.need-help .para {
+  width: 68%;
+  font-family: var(--default-font);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  color: #C3F5C1;
+}
+
+.need-help .mobile-number {
+  font-family: var(--fontFamily-grace);
+  font-size: 2.25rem;
+  font-weight: 400;
+  line-height: 67.5px;
+  text-align: center;
+  color: var(--color-primary);
+}
+
+.need-help .start-shopping {
+  padding: 15px 50px;
+  border-radius: 10px;
+  background-color: var(--color-sub-heading);
+  border: none;
+  font-family: var(--default-font);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  color: var(--color-primary);
+}
+
+/* section css end */

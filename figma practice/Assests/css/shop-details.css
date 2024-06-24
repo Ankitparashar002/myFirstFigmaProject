@@ -1,0 +1,445 @@
+/* Smooth scroll */
+:root {
+  scroll-behavior: smooth;
+}
+
+/* Fonts */
+:root {
+  --default-font: "Manrope";
+}
+
+/* Global color */
+:root {
+  --color-primary: #ffffff;
+  --color-heading: #1F1E17;
+  --color-paragraph: #878680;
+  --color-greenish: #4BAF47;
+  --color-sub-heading: #EEC044;
+  --footer-primary-color: #A5A49A;
+  --border-add-one-subtract: #ECE7E2;
+  --email-background-color: #F8F7F0;
+}
+
+
+body {
+  background-color: var(--color-primary);
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+
+/* section css start */
+.section .title-container {
+  background-image: url(../photos/Title_background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px;
+
+}
+
+.section .title-container .sub-heading {
+  font-family: var(--default-font);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #FFFFFFB2;
+  letter-spacing: 1.399999976158142px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.section .title-container .heading {
+  font-family: var(--default-font);
+  font-size: 3.125rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  text-align: center;
+
+}
+
+
+#show-alert {
+  display: none;
+}
+
+#alert-text {
+  margin: 10px 30%;
+  width: 40%;
+}
+
+
+.section {
+  margin-bottom: 100px;
+}
+
+.section .shop-deatils {
+  display: flex;
+  justify-content: center;
+  padding: 0px 95px;
+}
+
+.shop-deatils .tomato-img {
+  padding: 0px 20px 0px 0px;
+}
+
+
+
+.tomatoImgContent .heading {
+  width: 200px;
+  font-family: var(--default-font);
+  font-size: 2.8125rem;
+  font-weight: 800;
+  line-height: 57px;
+  text-align: left;
+  color: var(--color-heading);
+}
+
+.tomatoImgContent .cost {
+  width: 130.2px;
+  font-family: var(--default-font);
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 70.78px;
+  text-align: left;
+  color: var(--color-greenish);
+}
+
+.tomatoImgContent .customerReview {
+  height: 50px;
+  padding: 0px 0px 0px 144px;
+  border-bottom: 1px solid var(--border-add-one-subtract);
+}
+
+.tomatoImgContent .customerReview p {
+  font-family: var(--default-font);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: var(--color-paragraph);
+}
+
+.tomatoImgContent .paragraph {
+
+  font-family: var(--default-font);
+  font-size: 0.93rem;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: var(--color-paragraph);
+  margin-top: 15px;
+}
+
+.quantity {
+  display: flex;
+  flex-direction: row;
+  width: 55%;
+  height: 90px;
+}
+
+.quantity .heading {
+  font-family: var(--default-font);
+  font-size: 1.25rem;
+  font-weight: 800;
+  line-height: 60px;
+  text-align: left;
+  color: var(--color-heading);
+}
+
+.quantity .icon {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0px;
+}
+
+.quantity .icon .one {
+  width: 72px;
+  height: 60px;
+  padding: 15px 0px 0px 0px;
+  border-radius: 10px 0px 0px 10px;
+  border: 1px solid var(--border-add-one-subtract);
+  font-family: var(--default-font);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: center;
+  color: #101010;
+
+}
+
+.addSubtract {
+  display: flex;
+  flex-direction: column;
+}
+
+.quantity .icon .add {
+  width: 30px;
+  height: 30px;
+  font-size: 19px;
+  border-radius: 0px 10px 0px 0px;
+  border-style: solid;
+  border: 1px solid var(--border-add-one-subtract);
+  background-color: var(--color-primary);
+  line-height: 1px;
+  font-weight: 900;
+  padding: 0px 0px 0px 0px;
+}
+
+.quantity .icon .subtract {
+  border-radius: 0px 0px 10px 0px;
+  width: 30px;
+  font-size: 21px;
+  height: 30px;
+  margin-top: 0px;
+  padding: 0px;
+  border-style: solid;
+  border: 1px solid var(--border-add-one-subtract);
+  background-color: var(--color-primary);
+  line-height: 1px;
+  font-weight: 700;
+}
+
+.shop-deatils .addToCart {
+  margin-right: 8px;
+  width: 174px;
+  height: 60px;
+  padding: 0px 28px 0px 28px;
+  border-radius: 10px;
+  background-color: var(--color-greenish);
+  border: none;
+  font-family: var(--default-font);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: center;
+  color: var(--color-primary);
+}
+
+
+.shop-deatils .addToWishlist {
+  width: 206px;
+  height: 60px;
+  padding: 0px 30px 0px 45px;
+  border-radius: 10px;
+  background-color: var(--color-sub-heading);
+  border: none;
+  font-family: var(--default-font);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 43px;
+  text-align: left;
+  color: var(--color-primary);
+}
+
+.shop-deatils .share-method {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.shop-deatils .share-method h5 {
+  width: 190px;
+  font-family: var(--default-font);
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 40px;
+  text-align: left;
+  color: var(--color-heading);
+  margin-right: 15px;
+}
+
+.share-method .icon {
+  width: 200px;
+}
+
+.share-method .icon i {
+  width: 40px;
+  height: 40px;
+  font-size: 12px;
+  padding: 14px 0px 0px 15px;
+  border-radius: 20px;
+  margin-right: 3px;
+  background-color: var(--email-background-color);
+}
+
+.shop-deatils .description {
+  font-family: var(--default-font);
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 50px;
+  text-align: left;
+  color: var(--color-heading);
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.shop-deatils .paragraph1 {
+  width: 100%;
+  font-family: var(--default-font);
+  font-size: 0.95rem;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: var(--color-paragraph);
+  padding-bottom: 20px;
+}
+
+.shop-deatils .paragraph2 {
+  font-family: var(--default-font);
+  font-size: 0.95rem;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: var(--color-paragraph);
+  padding-bottom: 20px;
+
+}
+
+.shop-deatils .one-review {
+  font-family: var(--default-font);
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 32px;
+  text-align: left;
+  color: var(--color-heading);
+  padding-bottom: 30px;
+}
+
+.shop-deatils .kevinMartin {
+  border: none;
+  border-bottom: 1px solid var(--border-add-one-subtract);
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+
+.shop-deatils .kevinMartin .kevinImg {
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+}
+
+.shop-deatils .kevinMartin .kevinImg img {
+  width: 168px;
+  height: 168px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.kevinMartin .heading {
+  font-family: var(--default-font);
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 30px;
+  text-align: left;
+  color: var(--color-heading);
+  height: 20px;
+}
+
+.kevinMartin .para1 {
+  font-family: var(--default-font);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+  color: var(--color-greenish);
+  height: 40px;
+}
+
+.kevinMartin .para2 {
+  font-family: var(--default-font);
+  font-size: 0.94rem;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: var(--color-paragraph);
+}
+
+.blogs .form-review {
+  margin-top: 50px;
+}
+
+
+.form-review .heading {
+  font-family: var(--default-font);
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 48.5px;
+  text-align: left;
+  color: var(--color-heading);
+}
+
+.form-review .form-check-text {
+  font-family: var(--default-font);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 34px;
+  text-align: left;
+  color: var(--color-paragraph);
+}
+
+.form-review .form-check {
+  padding-left: 11px;
+}
+
+.form-review .form-check-input {
+  margin-top: 12px;
+  font-size: 12px;
+}
+
+.form-review .yourRatingText {
+  font-family: var(--default-font);
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  color: var(--color-paragraph);
+}
+
+
+.form-review .input-name,
+.form-review .input-email {
+  font-size: 14px;
+  border-radius: 8px;
+  background-color: var(--email-background-color);
+  border: 1px solid var(--email-background-color);
+  padding: 15px;
+}
+
+.shop-deatils .detail-2 {
+  margin-top: -6px;
+  padding: 0px;
+}
+
+
+.form-review .form-textarea {
+  background-color: var(--email-background-color);
+  padding: 12px 0px 0px 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  width: 100%;
+
+}
+
+.form-review .postBtn .post {
+  margin-top: 15px;
+  padding: 10px 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--color-greenish);
+  font-family: var(--default-font);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  color: var(--color-primary);
+}
+
+
+
+/* section css end */

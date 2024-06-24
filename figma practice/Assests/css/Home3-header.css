@@ -1,0 +1,122 @@
+/* navbar css */
+.detail-navbar {
+  background-color: var(--color-greenish);
+}
+
+.navBar-section .navBar {
+  padding: 0px 40px;
+}
+
+
+.detail-navbar .data {
+  display: flex;
+  flex-direction: row;
+  margin-right: 280px;
+}
+
+.detail-navbar .location {
+  display: flex;
+  flex-direction: row;
+}
+
+.detail-navbar .location i,
+.email i {
+  color: var(--color-primary);
+  font-size: 12px;
+  margin-top: 11px;
+  margin-right: 10px;
+}
+
+.detail-navbar h6 {
+  font-family: var(--default-font);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: var(--color-primary);
+  margin-right: 30px;
+  padding-top: 8px;
+
+}
+
+.detail-navbar .email {
+  display: flex;
+  flex-direction: row;
+}
+
+.detail-navbar .icon i {
+  width: 25px;
+  font-size: 14px;
+  border-radius: 20px;
+  height: 34%;
+  padding-top: 13;
+  text-align: center;
+  font-weight: 400;
+  color: var(--color-primary);
+}
+
+.navBar-section a {
+  font-size: 16px;
+}
+
+
+.navBar-content .nav-link {
+  color: var(--color-paragraph);
+  font-weight: 500;
+  font-size: 16px;
+  width: 99px;
+
+}
+
+.navBar-content .nav-link:active {
+  color: var(--color-heading);
+  font-weight: 600;
+}
+
+.logo {
+  width: 170px;
+  height: 51.5px;
+
+}
+
+.logo-div {
+  height: 98px;
+  padding: 22px 171px 0px 30px;
+
+}
+
+
+.searchIcon {
+  padding: 6px 0px 0px 40px;
+  border-left: 1px solid #E4E2D7;
+}
+
+.searchIcon .fa-magnifying-glass {
+  width: 24px;
+  height: 24px;
+}
+
+
+.shop-cart .fa-cart-shopping {
+  padding: 11px 7px;
+}
+
+.shop-cart a {
+  padding: 0px 4px 0px 4px;
+  gap: 0px;
+  border-radius: 50%;
+  opacity: 0px;
+  margin-left: -15px;
+  text-decoration: none;
+
+  font-family: var(--default-font);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: center;
+  background-color: var(--color-greenish);
+  color: var(--color-primary);
+
+}
+
+/* navbar css end */

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Assests/css/fonts.googleapis.css" />
+
+    <link rel="stylesheet" href="../Assests/css/all.min.css" />
+    <link rel="stylesheet" href="../Assests/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../Assests/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="../Assests/css/news-details.css" />
+    <link rel="icon" href="../Assests/photos/logo.png" />
+    <title>News-Details</title>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $(`#header`).load(`header-2.html`);
+      });
+
+      $(function () {
+        $(`#footer`).load(`footer.html`);
+      });
+    </script>
+  </head>
+
+  <body class="container-fluid" style="padding: 0px">
+    <div id="header"></div>
+
+    <section class="section">
+      <div class="title-container">
+        <h6 class="sub-heading">Home / Details</h6>
+        <h3 class="heading">News Details</h3>
+      </div>
+
+      <div class="section-1-content container">
+        <div class="blogs row">
+          <div class="col-8" style="padding-right: 10px">
+            <div class="card mb-3 card-1" style="border: none">
+              <img
+                src="../Assests/photos/news-list-blog2.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body blog-body">
+                <span class="date">
+                  <p>05 July 2022</p>
+                </span>
+
+                <div class="author">
+                  <div class="author-name">
+                    <i class="fa-solid fa-circle-user"></i>
+                    <p>by Kevin Martin</p>
+                  </div>
+                  <div class="comment">
+                    <i class="fa-solid fa-comments"></i>
+                    <p>0 comment</p>
+                  </div>
+                </div>
+                <h5 class="card-title">
+                  The Future of Farming, Smart Irrigation Solutions
+                </h5>
+                <p class="card-text blog-text">
+                  Lorem ipsum dolor sit amet, cibo mundi ea duo, vim exerci
+                  phaedrum. There are many variations of passages of Lorem Ipsum
+                  available, but the majority have alteration in some injected
+                  or words which don’t look even slightly believable. If you are
+                  going to use a passage of Lorem Ipsum, you need to be sure
+                  there isn’t anything embarrang hidden in the middle of text.
+                  All the Lorem Ipsum generators on the <br />Internet tend to
+                  repeat predefined chunks as necessary, making this the first
+                  true generator on the Internet. It uses a dictionary of over
+                  200 Latin words, combined with a handful of model sentence
+                  structures, to generate Lorem Ipsum which looks reasonable.
+                </p>
+
+                <p class="card-text blog-text">
+                  Lorem Ipsum has been the industry’s standard dummy text ever
+                  since the 1500s, when an unknown printer took a galley of type
+                  and scrambled it to make a type simen book. It has survived
+                  not only five centuries, but also the leap into electronic
+                  typesetting.
+                </p>
+
+                <p class="card-text blog-text para3">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. orem Ipsum has been the industry’s
+                  standard dummy text ever since the when an unknown printer
+                  took a galley of type and scrambled it to make a type specimen
+                  book. It has survived not only five centuries,but also the
+                  leap <br />
+                  into unchanged.
+                </p>
+              </div>
+            </div>
+
+            <div class="blog-tag">
+              <div class="blog-tag-link">
+                <h5 class="heading">Tags</h5>
+                <a href="#" class="tag-link">Harvest</a>
+                <a href="#" class="tag-link">Vegetables</a>
+              </div>
+              <div class="icon">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
+            </div>
+
+            <div class="tag-sub-box">
+              <div class="box-1">
+                <p>Agronomy and relation to Other Sciences</p>
+              </div>
+
+              <div class="box-2">
+                <p>Bringing Food Production Back To Cities</p>
+              </div>
+            </div>
+
+            <form class="row g-3 form-comment">
+              <div class="col-12">
+                <h3 class="heading">Leave a Comment</h3>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="gridCheck"
+                  />
+                  <label
+                    class="form-check-label form-check-text"
+                    for="gridCheck"
+                  >
+                    Save my name, email, and website in this browser for the
+                    next time I comment.
+                  </label>
+                </div>
+              </div>
+
+              <div class="col col-md-6">
+                <input
+                  type="text"
+                  class="form-control input-name"
+                  placeholder="Full name"
+                  aria-label="First name"
+                />
+              </div>
+
+              <div class="col-md-6">
+                <input
+                  type="email"
+                  class="form-control input-email"
+                  placeholder="Email Address"
+                  id="inputEmail4"
+                />
+              </div>
+
+              <div class="detail-2">
+                <textarea
+                  class="text form-textarea"
+                  rows="9%"
+                  placeholder="Write Comment"
+                ></textarea>
+              </div>
+
+              <div class="postBtn">
+                <button class="post btn">Post Comment</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-4">
+            <div class="row" style="margin-left: 8px">
+              <div class="input-group mb-4 input-box">
+                <input
+                  type="text"
+                  class="form-control search-here-box"
+                  placeholder="Search here..."
+                  aria-label="Recipient's username"
+                  aria-describedby="basic-addon2"
+                />
+                <span class="input-group-text btn search-btn" id="basic-addon2"
+                  ><img src="../Assests/photos/search-btn-icon.png"
+                /></span>
+              </div>
+
+              <div class="posts">
+                <h5 class="heading">Latest Posts</h5>
+
+                <div class="card mb-2 post-1">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img
+                        class="post-img"
+                        src="../Assests/photos/news-list-blog1.png"
+                        class="img-fluid rounded-start"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body post-body">
+                        <div class="author">
+                          <div class="author-name">
+                            <i class="fa-solid fa-circle-user"></i>
+                            <p>by Kevin Martin</p>
+                          </div>
+                        </div>
+                        <p class="card-text post-topic">
+                          Bringing Food Production Back To Cities
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-2 post-2">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img
+                        class="post-img"
+                        src="../Assests/photos/news-list-blog2.png"
+                        class="img-fluid rounded-start"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body post-body">
+                        <div class="author">
+                          <div class="author-name">
+                            <i class="fa-solid fa-circle-user"></i>
+                            <p>by Kevin Martin</p>
+                          </div>
+                        </div>
+                        <p class="card-text post-topic">
+                          The Future of Farming, Smart Irrigation Solutions
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-2 post-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img
+                        class="post-img"
+                        src="../Assests/photos/news-list-blog3.png"
+                        class="img-fluid rounded-start"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body post-body">
+                        <div class="author">
+                          <div class="author-name">
+                            <i class="fa-solid fa-circle-user"></i>
+                            <p>by Kevin Martin</p>
+                          </div>
+                        </div>
+                        <p class="card-text post-topic">
+                          Agronomy and relation to Other Sciences
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="categories">
+                <h4>Categories</h4>
+                <ul style="list-style-type: none">
+                  <li><a href="">Agriculture</a></li>
+                  <li><a href="">Farm</a></li>
+                  <li><a href="">Farming</a></li>
+                  <li><a href="">Fresh Vegetables</a></li>
+                  <li><a href="">Harvest</a></li>
+                  <li><a href="">Organic Food</a></li>
+                </ul>
+              </div>
+
+              <div class="tags">
+                <div class="tags-div">
+                  <h3 class="title">Tags</h3>
+                  <a href="#" class="tag-link">Agriculture</a>
+                  <a href="#" class="tag-link">Farming</a>
+                  <br />
+                  <a href="#" class="tag-link">Harvest</a>
+                  <a href="#" class="tag-link">Organic</a>
+                  <br />
+                  <a href="#" class="tag-link">Vegetables</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="footer"></div>
+
+    <script src="../Assests/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

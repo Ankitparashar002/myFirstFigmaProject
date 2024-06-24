@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Assests/css/fonts.googleapis.css" />
+
+    <link rel="stylesheet" href="../Assests/css/all.min.css" />
+    <link rel="stylesheet" href="../Assests/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../Assests/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="../Assests/css/shop.css" />
+    <link rel="icon" href="../Assests/photos/logo.png" />
+    <title>Shop</title>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $(`#header`).load(`header-2.html`);
+      });
+
+      $(function () {
+        $(`#footer`).load(`footer.html`);
+      });
+    </script>
+  </head>
+
+  <body class="container-fluid" style="padding: 0">
+    <div id="header"></div>
+
+    <section class="section">
+      <div class="title-container">
+        <h6 class="sub-heading">Home / Shop</h6>
+        <h3 class="heading">Our Shop</h3>
+      </div>
+
+      <div class="section-1-content container">
+        <div class="row">
+          <div class="col-3">
+            <div class="row">
+              <div class="input-group mb-4 input-box">
+                <input
+                  type="text"
+                  class="form-control search-product-box"
+                  placeholder="Search products..."
+                  aria-label="Recipient's username"
+                  aria-describedby="basic-addon2"
+                  style="background-color: #eec044; border: none"
+                />
+              </div>
+
+              <div class="container mb-4 price-range-div">
+                <div class="row">
+                  <div class="price-box ">
+                    <div class="card">
+                      <div class="card-body" style="padding: 28px;">
+                        <h4 class="card-title price-text">Price</h4>
+                        <div class="range-slider">
+                          <input type="range" id="rangeMin" min="20" max="100" value="20">
+                          <input type="range" id="rangeMax" min="20" max="100" value="100">
+                          <div class="track"></div>
+                        </div>
+                        <div class="range-text">
+                          <span id="priceValue" style="color:gray">$20 - $100</span>
+                          <button type="button" class="btn btn-success " id="applyButton">Apply</button>
+                        </div>
+                      
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="categories">
+                <h4 class="heading">Categories</h4>
+                <span class="content">
+                  <p>Agriculture</p>
+                  <p>></p>
+                </span>
+                <span class="content">
+                  <p>Farming</p>
+                  <p>></p>
+                </span>
+                <span class="content">
+                  <p>Fresh Vegetables</p>
+                  <p>></p>
+                </span>
+                <span class="content">
+                  <p>Harvest</p>
+                  <p>></p>
+                </span>
+                <span class="content">
+                  <p>Organic Food</p>
+                  <p>></p>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-9">
+            <div class="items-text">
+              <p class="para">Showing 1–9 of 10 results</p>
+
+              <div class="default-sorting">
+                <p>Default sorting</p>
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4 items">
+              <div class="col">
+                <div class="card item-1">
+                  <img
+                    src="../Assests/photos/Apple.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body item-detail">
+                    <div class="detail">
+                      <h5 class="card-title item-title">Apples</h5>
+                      <p class="card-text para">$50.00</p>
+                    </div>
+                    <i class="fa-solid fa-star" style="color: #fdbc30"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card item-2">
+                  <img
+                    src="../Assests/photos/Banana.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body item-detail">
+                    <div class="detail">
+                      <h5 class="card-title item-title">Bananas</h5>
+                      <p class="card-text para">$20.00</p>
+                    </div>
+                    <i class="fa-solid fa-star" style="color: #fdbc30"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card item-3">
+                  <img
+                    src="../Assests/photos/Carrot.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body item-detail">
+                    <div class="detail">
+                      <h5 class="card-title item-title">Carrot</h5>
+                      <p class="card-text para">$50.00</p>
+                    </div>
+                    <i class="fa-solid fa-star" style="color: #fdbc30"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card item-4">
+                  <img
+                    src="../Assests/photos/Garlic.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body item-detail">
+                    <div class="detail">
+                      <h5 class="card-title item-title">Garlic</h5>
+                      <p class="card-text para">$20.00</p>
+                    </div>
+                    <i class="fa-solid fa-star" style="color: #fdbc30"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card item-5">
+                  <img
+                    src="../Assests/photos/Grapes.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body item-detail">
+                    <div class="detail">
+                      <h5 class="card-title item-title">Grapes</h5>
+                      <p class="card-text para">$100.00</p>
+                    </div>
+                    <i class="fa-solid fa-star" style="color: #fdbc30"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card item-6">
+                  <img
+                    src="../Assests/photos/lettuce.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body item-detail">
+                    <div class="detail">
+                      <h5 class="card-title item-title">Lettuce</h5>
+                      <p class="card-text para">$30.00</p>
+                    </div>
+                    <i class="fa-solid fa-star" style="color: #fdbc30"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card item-7">
+                  <img
+                    src="../Assests/photos/Onion.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body item-detail">
+                    <div class="detail">
+                      <h5 class="card-title item-title">Onions</h5>
+                      <p class="card-text para">$20.00</p>
+                    </div>
+                    <i class="fa-solid fa-star" style="color: #fdbc30"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card item-8">
+                  <img
+                    src="../Assests/photos/Potatoes.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body item-detail">
+                    <div class="detail">
+                      <h5 class="card-title item-title">Potatos</h5>
+                      <p class="card-text para">$30.00</p>
+                    </div>
+                    <i class="fa-solid fa-star" style="color: #fdbc30"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col item-9">
+                <div class="card">
+                  <img
+                    src="../Assests/photos/Black-grapes.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body item-detail">
+                    <div class="detail">
+                      <h5 class="card-title item-title">Red Grapes</h5>
+                      <p class="card-text para">$100.00</p>
+                    </div>
+                    <i class="fa-solid fa-star" style="color: #fdbc30"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slide-btn">
+                <button type="button" style="background-color: #4BAF47;" class="btn btn-outline-success me-1 active">
+                  1
+                </button>
+                <button type="button" class="btn btn-outline-success me-1">
+                  2
+                </button>
+                <button type="button" class="btn btn-outline-success">></button>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="footer"></div>
+    <script src="../Assests/js/shop-range.js"></script>
+    <script src="../Assests/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

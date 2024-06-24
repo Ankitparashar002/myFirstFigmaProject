@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Assests/css/fonts.googleapis.css" />
+
+    <link rel="stylesheet" href="../Assests/css/all.min.css" />
+    <link rel="stylesheet" href="../Assests/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../Assests/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="../Assests/css/shop-details.css" />
+    <link rel="stylesheet" href="../Assests/css/header-2.css" />
+    <link rel="icon" href="../Assests/photos/logo.png" />
+    <title>Shop-Details</title>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $(`#header`).load(`header-2.html`);
+      });
+
+      $(function () {
+        $(`#footer`).load(`footer.html`);
+      });
+    </script>
+  </head>
+  <body class="container-fluid" style="padding: 0px">
+    <div id="show-alert"></div>
+    <div id="header"></div>
+
+    <section class="section">
+      <div class="title-container">
+        <h6 class="sub-heading">Home / Shop / Agriculture / Tomato</h6>
+        <h3 class="heading">Our Shop</h3>
+      </div>
+
+      <div class="shop-deatils container">
+        <div class="col col-12 container">
+          <div
+            class="card mb-3 mt-5"
+            style="border: none; display: flex; flex-direction: row"
+          >
+            <div class="row g-0">
+              <div class="col col-lg-6 col-md-12 col-sm-12 tomato-img">
+                <img
+                  src="../Assests/photos/tomato-img.png"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col col-lg-6 col-md-12 col-sm-12 tomatoImgContent">
+                <div class="card-body" style="padding-top: 0px">
+                  <div class="row" style="height: 70px">
+                    <h5 class="card-title heading">Tomato</h5>
+                    <p class="cost">$00.00</p>
+                  </div>
+                  <div class="customerReview">
+                    <p>(1 Customer Review)</p>
+                  </div>
+                  <p class="card-text paragraph">
+                    Aliquam hendrerit a augue insuscipit. Etiam aliquam massa
+                    quis des mauris commodo venenatis ligula commodo leez sed
+                    blandit convallis dignissim onec vel pellentesque neque.
+                  </p>
+
+                  <div class="quantity">
+                    <h5 class="heading">Choose Quantity</h5>
+                    <div class="icon">
+                      <p class="one">0</p>
+                      <div class="addSubtract">
+                        <button class="add btn">+</button>
+                        <button class="subtract btn">-</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <button class="addToCart btn">Add to cart</button>
+                    <button class="addToWishlist btn">Add to wishlist</button>
+                  </div>
+
+                  <div class="share-method">
+                    <h5>Share with Friends</h5>
+                    <div class="icon">
+                      <i class="fa-brands fa-facebook-f"></i>
+                      <i class="fa-brands fa-twitter"></i>
+                      <i class="fa-brands fa-linkedin-in"></i>
+                      <i class="fa-brands fa-pinterest-p"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h5 class="description">Description</h5>
+
+          <p class="paragraph1">
+            Lorem ipsum dolor sit amet sectetur adipiscin elit cras feuiat
+            antesed ces condimentum viverra duis autue nim convallis id diam
+            vitae duis egety dictum erosin dictum sem. Vivamus sed molestie
+            sapien aliquam et facilisis arcu dut molestie augue suspendisse
+            sodales tortor nunced quis cto ligula posuere cursus keuis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore
+            eu fugiat nulla pariatur. Excepteur sint occaecated cupidatat non
+            proident sunt in culpa qui officia deserunt mollit anim id est
+            laborum ivamus sed molestie sapien.
+          </p>
+
+          <p class="paragraph2">
+            Aliquam et facilisis arcuut olestie augue. Suspendisse sodales
+            tortor nunc quis auctor ligula posuere cursus duis aute irure dolor
+            in reprehenderit in voluptate velit esse cill doloreeu fugiat nulla
+            pariatur excepteur sint occaecat cupidatat non proident sunt in
+            culpa qui officia deserunt mollit anim id est laborum. Vivaus sed
+            delly molestie sapien. Aliquam et facilisis arcuut molestie augue.
+          </p>
+
+          <h4 class="one-review">1 review for Tomato</h4>
+
+          <div class="card mb-3 kevinMartin">
+            <div class="row g-0">
+              <div class="col col-lg-2 col-md-12 kevinImg">
+                <img src="../Assests/photos/customer-1.png" alt="..." />
+              </div>
+              <div class="col col-lg-10 col-md-12">
+                <div class="card-body">
+                  <h5 class="card-title heading">Kevin Martin</h5>
+                  <p class="para1">July 10, 2022</p>
+                  <p class="card-text para2">
+                    It has survived not only five centuries, but also the leap
+                    into electronic typesetting unchanged. It was popularised in
+                    the sheets containing lorem ipsum is simply free text. sint
+                    occaecat cupidatat non proident sunt in culpa qui officia
+                    deserunt mollit anim id est laborum. Vivaus sed delly
+                    molestie sapien.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <form class="row g-3 form-review">
+            <div class="col-12">
+              <h3 class="heading">Add a review</h3>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="gridCheck"
+                />
+                <label class="form-check-label form-check-text" for="gridCheck">
+                  Save my name, email, and website in this browser for the next
+                  time I comment.
+                </label>
+              </div>
+            </div>
+
+            <p class="yourRatingText">Your rating</p>
+
+            <div class="detail-2 col col-lg-12 col-md-12">
+              <textarea
+                class="text form-textarea"
+                rows="6%"
+                placeholder="Your Review..."
+              ></textarea>
+            </div>
+
+            <div class="col col-lg-6 col-md-12" style="padding-left: 0px">
+              <input
+                type="text"
+                class="form-control input-name"
+                placeholder="Your Name"
+                aria-label="First name"
+              />
+            </div>
+
+            <div class="col col-lg-6 col-md-12" style="padding-right: 0px">
+              <input
+                type="email"
+                class="form-control input-email"
+                placeholder="Email Address"
+                id="inputEmail4"
+              />
+            </div>
+
+            <div class="postBtn" style="padding-left: 0px">
+              <button class="post btn">Submit Review</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div id="footer"></div>
+
+    <script src=" ../Assests/js/bootstrap.bundle.min.js"></script>
+    <script src="../Assests/js/shop-details.js"></script>
+  </body>
+</html>

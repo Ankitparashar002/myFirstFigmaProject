@@ -1,0 +1,130 @@
+/* Smooth scroll */
+:root {
+  scroll-behavior: smooth;
+}
+
+/* Fonts */
+:root {
+  --default-font: "Manrope";
+}
+
+/* Global color */
+:root {
+  --color-primary: #ffffff;
+  --color-heading: #1F1E17;
+  --color-paragraph: #878680;
+  --color-greenish: #4BAF47;
+  --color-sub-heading: #EEC044;
+
+}
+
+
+body {
+  background-color: var(--color-primary);
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+/* section-1 css start */
+.section-1 .title-container {
+  background-image: url(../photos/Title_background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px;
+
+}
+
+.section-1 .title-container .sub-heading {
+  font-family: var(--default-font);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #FFFFFFB2;
+  letter-spacing: 1.399999976158142px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.section-1 .title-container .heading {
+  font-family: var(--default-font);
+  font-size: 3.125rem;
+  font-weight: 800;
+
+  color: var(--color-primary);
+  text-align: center;
+
+}
+
+.section-1 {
+  margin-bottom: 100px;
+}
+
+.section-1 .title-cards {
+  margin-top: 60px;
+  padding: 0px 101px;
+}
+
+.title-cards .card-1,
+.card-2,
+.card-3 {
+  padding: 0px 15px 14px 15px;
+}
+
+.title-cards .card {
+  padding: 20px 0px 10px 20px;
+  border-radius: 10px;
+  background-color: var(--color-greenish);
+  width: 99%;
+
+}
+
+.title-cards .card-2 .card {
+  background-color: #C5CE38;
+}
+
+.title-cards .card-3 .card {
+  background-color: var(--color-sub-heading);
+}
+
+
+.title-cards .card .heading {
+  font-family: Covered By Your Grace;
+  font-size: 1.875rem;
+  font-weight: 400;
+  line-height: 45px;
+  text-align: left;
+  color: #FFFFFF99;
+}
+
+.title-cards .card .paragraph {
+  font-family: var(--default-font);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: #FFFFFFEE;
+}
+
+.title-cards .card .para-1 {
+  width: 90%;
+  color: var(--color-primary);
+}
+
+.title-cards .card .para-2 {
+  width: 73%;
+}
+
+.title-cards .card .para-3 {
+  width: 80%;
+}
+
+
+
+
+/* section css end */

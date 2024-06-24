@@ -1,0 +1,112 @@
+.form-div {
+  padding: 100px 100px;
+}
+
+
+.form-div .card {
+
+  border-radius: 10px;
+}
+
+.form-div .card img {
+  height: 99%;
+  width: 510px;
+}
+
+
+
+.form-div .card-body {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px 114px 80px;
+  background-image: url(../photos/form-content-img.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: #F8F7F0;
+
+}
+
+.form-div .head-div {
+  padding-bottom: 12px;
+}
+
+.form-div .head-div .sub-heading {
+  font-family: Covered By Your Grace;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: left;
+  color: var(--color-sub-heading);
+}
+
+.form-div .head-div .heading {
+  height: 40px;
+  font-family: var(--default-font);
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 8px;
+  text-align: left;
+  color: var(--color-heading);
+}
+
+.form-div .form-details {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+}
+
+.form-div .form-details .detail-1 {
+  width: 90%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.form-div .form-details .detail-1 .name {
+  width: 48%;
+  height: 0px;
+  padding: 30px 15px 30px 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+
+}
+
+.form-div .form-details .detail-1 .email {
+  width: 48%;
+  height: 0px;
+  padding: 30px 15px 30px 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+}
+
+.form-details .detail-2 {
+  border-radius: 10px;
+  border: none;
+
+}
+
+.form-details .detail-2 .text {
+  font-family: var(--default-font);
+  border: none;
+  width: 90%;
+  padding: 20px 0px 0px 20px;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+.form-div .send {
+  font-family: var(--default-font);
+  padding: 18px 40px;
+  width: 33%;
+  border-radius: 10px;
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+  background-color: var(--color-greenish);
+  margin-top: 14px;
+  color: var(--color-primary);
+  text-align: center;
+}

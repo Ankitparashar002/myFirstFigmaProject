@@ -1,0 +1,146 @@
+/* Fonts */
+:root {
+  --default-font: "Manrope";
+  --fontFamily-grace: "Covered By Your Grace";
+}
+
+/* Global color */
+:root {
+  --color-primary: #ffffff;
+  --color-heading: #1F1E17;
+  --color-paragraph: #878680;
+  --color-greenish: #4BAF47;
+  --color-sub-heading: #EEC044;
+  --categories-bgcolor: #F8F7F0;
+}
+
+.navBar-section {
+  padding-bottom: 100px;
+  background-color: transparent;
+
+}
+
+
+.navBar {
+  border-bottom: 1px solid #FFFFFF19;
+}
+
+.navBar-section a {
+  font-size: 12px;
+}
+
+.navBar-section .navBar {
+  padding: 0px 0.01px 0px 0px;
+}
+
+.navBar-section .navBar-content .nav-link {
+  font-weight: 500;
+  color: var(--color-primary);
+  font-size: 16px;
+  width: 108px;
+}
+
+
+.navBar-section .navBar-content .nav-link:active {
+  color: var(--color-heading);
+  font-weight: 600;
+
+}
+
+.navBar-section .logo {
+  width: 170px;
+  height: 51.5px;
+
+}
+
+.navBar-section .logo-div {
+  height: 98px;
+  padding: 22px 100px 0px 30px;
+
+}
+
+
+.navBar-section .searchIcon-div {
+  margin-left: 55px;
+}
+
+.navBar-section .searchIcon {
+  padding: 6px 0px 0px 20px;
+  border-left: 1px solid #E4E2D7;
+
+}
+
+.navBar-section .searchIcon .fa-magnifying-glass {
+  width: 24px;
+  height: 24px;
+  color: var(--color-primary);
+}
+
+
+.shop-cart .fa-cart-shopping {
+  padding: 11px 7px;
+  color: var(--color-primary);
+
+}
+
+.shop-cart a {
+  padding: 0px 4px 0px 4px;
+  border-radius: 50%;
+  margin-left: -15px;
+  text-decoration: none;
+
+  font-family: var(--default-font);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: center;
+  background-color: var(--color-greenish);
+  color: var(--color-primary);
+}
+
+
+
+
+.icon i {
+  width: 40px;
+  font-size: 12px;
+  border-radius: 50%;
+  background: #FFFFFF19;
+  height: 40px;
+  padding-top: 15px;
+  text-align: center;
+  font-weight: 400;
+  color: var(--color-primary);
+  margin-right: 5px;
+}
+
+.callLogo {
+  width: 3.5%;
+  margin: 0px 20px;
+}
+
+.call {
+  padding-top: 15px;
+}
+
+.call .para {
+  font-family: var(--default-font);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 10px;
+  text-align: left;
+  color: var(--color-primary);
+
+}
+
+.call .mobileNumber {
+  font-family: var(--default-font);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 2px;
+  text-align: left;
+  color: var(--color-primary);
+}
+
+
+/* navbar css end */

@@ -1,0 +1,167 @@
+/* Fonts */
+:root {
+  --default-font: "Manrope";
+  --fontFamily-grace: "Covered By Your Grace";
+}
+
+/* Global color */
+:root {
+  --color-primary: #ffffff;
+  --color-heading: #1F1E17;
+  --color-paragraph: #878680;
+  --color-greenish: #4BAF47;
+  --color-sub-heading: #EEC044;
+  --categories-bgcolor: #F8F7F0;
+}
+
+
+
+/* navbar css */
+
+.navBar-section {
+  padding: 0px 0px 1px 0px;
+  border: 0px 0px 1px 0px;
+  background-color: var(--categories-bgcolor);
+
+}
+
+.navBar-section a {
+  font-size: 1rem;
+  width: 105px;
+}
+
+
+.navBar {
+  padding: 0px 75px;
+}
+
+.navBar-content .nav-link {
+  color: var(--color-paragraph);
+  font-weight: 500;
+
+}
+
+.navBar-content .nav-link:active {
+  color: var(--color-heading);
+  font-weight: 600;
+}
+
+.logo {
+  width: 150px;
+  height: 50px;
+}
+
+.logo-div {
+  width: 310px;
+  height: 98px;
+  padding: 24.75px 0px 31.75px 29px;
+}
+
+
+.searchIcon-div {
+  margin-left: 155px;
+}
+
+.searchIcon {
+  padding: 6px 0px 0px 40px;
+  border-left: 1px solid #E4E2D7;
+
+}
+
+.searchIcon .fa-magnifying-glass {
+  width: 24px;
+  height: 24px;
+}
+
+
+.shop-cart .fa-cart-shopping {
+  padding: 11px 7px;
+
+}
+
+.shop-cart a {
+  padding: 0px 4px 0px 4px;
+  border-radius: 50%;
+  margin-left: -15px;
+  text-decoration: none;
+
+  font-family: var(--default-font);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: center;
+  background-color: var(--color-greenish);
+  color: var(--color-primary);
+}
+
+
+.detail .icon {
+  margin-top: 30px;
+}
+
+
+.detail .icon i {
+  margin-right: 5px;
+  width: 35px;
+  font-size: 0.8rem;
+  border-radius: 20px;
+  background-color: var(--categories-bgcolor);
+  height: 35px;
+  padding-top: 11px;
+  text-align: center;
+  font-weight: 400;
+}
+
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.offer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+
+.offer .call,
+.message,
+.location {
+  display: flex;
+  flex-direction: row;
+  border-right: 1px solid #E4E2D7;
+  margin-left: 54px;
+}
+
+.offer .location {
+  border-right: none;
+}
+
+.section-1 .offer .storeLocator {
+  border-right: none;
+}
+
+.para1 {
+  font-size: 0.75rem;
+  line-height: 0px;
+  margin-bottom: 6px;
+  color: var(--color-paragraph);
+}
+
+
+.para2 {
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.detail .paragraph {
+  margin: 18px 19px 0px 24px;
+}
+
+
+/* navbar css end */

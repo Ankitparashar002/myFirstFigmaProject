@@ -1,0 +1,352 @@
+:root {
+  --footer-primary-color: #A5A49A;
+  --color-primary: #ffffff;
+  --color-heading: #1F1E17;
+}
+
+/* Fonts */
+:root {
+  --default-font: "Manrope";
+}
+
+
+
+/* footer css start */
+
+
+.footer .logo-img img {
+  width: 60%
+}
+
+.footer .details {
+  display: flex;
+  flex-direction: row;
+  padding: 140px 110px;
+  width: 100%;
+}
+
+.footer .details-div {
+  background-color: #24231D;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer .detail-1 {
+  padding: 0px;
+}
+
+
+.footer .detail-1 .logo-img {
+  padding: 0px 0px 25px 0px;
+}
+
+.footer .detail-1 .paragraph {
+  width: 100%;
+}
+
+.footer .detail-1 .paragraph p {
+  font-family: var(--default-font);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: var(--footer-primary-color);
+}
+
+.footer .detail-1 .icon {
+  display: flex;
+}
+
+
+.footer .detail-1 .icon i {
+
+  padding: 15px 0px 0px 0px;
+  border-radius: 50%;
+  width: 15%;
+  height: 40px;
+
+  background-color: var(--color-heading);
+  color: var(--color-primary);
+  font-size: 12px;
+  text-align: center;
+  margin-right: 7px;
+}
+
+.footer .detail-2 {
+  padding: 0px 15px 0px 15px;
+}
+
+.footer .detail-2 .bullet-points {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 10px 0px 0px;
+
+}
+
+.footer .detail-2 .explore {
+  padding: 0px 96.8px 0px 0px;
+}
+
+.footer .detail-2 .explore h3 {
+  font-family: var(--default-font);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  color: var(--color-primary);
+}
+
+
+
+.detail-2 .underline {
+  width: 78%;
+}
+
+.footer .detail-2 .points ul {
+  color: var(--color-primary);
+}
+
+.footer .detail-2 .points li a {
+  font-family: var(--default-font);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  color: var(--footer-primary-color);
+  text-decoration: none;
+}
+
+.footer .detail-3 .news {
+  margin-left: -85px;
+  margin-top: 10px;
+}
+
+
+.detail-3 .underline {
+  width: 53%;
+}
+
+
+.footer .detail-3 .news h3 {
+  font-family: var(--default-font);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  color: var(--color-primary);
+}
+
+.footer .detail-3 .news-div {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.footer .detail-3 .news-div .news-1 {
+  padding: 3px 9px 0px 30px;
+}
+
+.footer .detail-3 .news-div .news-2 {
+  padding: 3px 0px 0px 30px;
+}
+
+.news-div .news-1 h4 {
+  font-family: var(--default-font);
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+  color: var(--color-primary);
+}
+
+.news-div .news-2 h4 {
+  font-family: var(--default-font);
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+  color: var(--color-primary);
+  width: 90%;
+}
+
+.news-div p {
+
+  font-family: var(--default-font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: left;
+  color: var(--color-sub-heading);
+
+}
+
+.footer .detail-4 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+}
+
+.footer .detail-4 .contact {
+  margin-top: 10px;
+}
+
+.detail-4 .underline {
+  width: 68%;
+}
+
+
+.footer .detail-4 .contact h3 {
+  font-family: var(--default-font);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  color: var(--color-primary);
+}
+
+.footer .detail-4 .mobile-number {
+
+  gap: 8px;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer .detail-4 .mobile-number p {
+  font-family: var(--default-font);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  color: var(--footer-primary-color);
+
+}
+
+.footer .detail-4 .mobile-number i {
+  color: var(--color-sub-heading);
+  padding-top: 6px;
+  font-size: 11px;
+
+}
+
+.footer .detail-4 .email {
+  gap: 8px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.footer .detail-4 .email p {
+  font-family: var(--default-font);
+  height: 15px;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 23px;
+  text-align: left;
+  color: var(--footer-primary-color);
+}
+
+.footer .detail-4 .email i {
+  top: 12.25px;
+  color: var(--color-sub-heading);
+  padding-top: 6px;
+  font-size: 11px;
+}
+
+.footer .detail-4 .address {
+
+  gap: 8px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.footer .detail-4 .address p {
+  font-family: var(--default-font);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  color: var(--footer-primary-color);
+
+}
+
+.footer .detail-4 .address i {
+  color: var(--color-sub-heading);
+  padding-top: 6px;
+  font-size: 12px;
+}
+
+.footer .detail-4 .input-box {
+  width: 270px;
+}
+
+.footer .detail-4 .input-box input {
+  border-radius: 8px 0px 0px 8px;
+  font-size: 12px;
+  padding: 14px 20px;
+}
+
+.footer .end-detail-div {
+  background-color: var(--color-heading);
+  display: flex;
+  justify-content: center;
+}
+
+.footer .end-details {
+  padding: 17px 0px 0px 0px;
+}
+
+.footer .end-details .end-text-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: flex-end;
+  padding-left: 99px;
+}
+
+.footer .end-details .end-text-1 .copyright {
+  font-family: var(--default-font);
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  color: var(--footer-primary-color);
+  padding-right: 3px;
+}
+
+.footer .end-details .end-text-1 .copyright-name {
+  font-family: var(--default-font);
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  color: var(--footer-primary-color);
+}
+
+.footer .end-details .end-text-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: flex-end;
+  padding-right: 78px;
+
+}
+
+.footer .end-details .end-text-2 .terms {
+  font-family: var(--default-font);
+  font-size: 14px;
+  font-weight: 600;
+  text-align: right;
+  color: var(--footer-primary-color);
+
+}
+
+.footer .end-details .end-text-2 .privacy {
+  opacity: 0px;
+  border-left: 1px solid var(--footer-primary-color);
+  color: var(--footer-primary-color);
+  margin-left: 13px;
+  font-size: 13px;
+  padding-left: 10px;
+}
+
+/* footer css end */

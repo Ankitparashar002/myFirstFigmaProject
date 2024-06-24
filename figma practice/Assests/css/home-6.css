@@ -1,0 +1,1068 @@
+/* Smooth scroll */
+:root {
+  scroll-behavior: smooth;
+}
+
+/* Fonts */
+:root {
+  --default-font: "Manrope";
+  --Outfit-font: "Outfit";
+  --shadowInto-font: "Shadows Into Light Two";
+}
+
+/* Global color */
+:root {
+  --color-primary: #ffffff;
+  --color-icon-i: #1F1E17;
+  --color-navLink: #878680;
+  --color-greenish: #4BAF47;
+  --color-sub-heading: #EEC044;
+  --footer-primary-color: #A5A49A;
+  --heading-color: #04000B;
+  --section-2-para: #666666;
+  --color-darkgreen: #49A760;
+  --color-Lastcard-color: #FCFCFC;
+  --color-template-btn: #F7C35F;
+}
+
+
+body {
+  background-color: var(--color-primary);
+  margin: 0px;
+  padding: 0px;
+}
+
+/* header css start */
+.detail {
+  background-color: #1F4E3D;
+
+}
+
+.detail main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 0px 49px 0px 110px;
+}
+
+
+.detail main .icon-top {
+  width: 12%;
+  height: 90%;
+
+}
+
+.detail .img-div {
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+  border-left: 1px solid #FFFFFF33;
+  border-right: 1px solid #FFFFFF33;
+  width: 450px;
+}
+
+.detail .logo-top {
+  width: 170px;
+  height: 51.5px;
+}
+
+.detail main aside {
+  padding: 20px 0px 20px 0px;
+  width: 360px;
+}
+
+.detail main .para,
+.email {
+  font-family: var(--Outfit-font);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: var(--color-primary);
+}
+
+.detail .email-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.detail main .number,
+.emailAddress {
+  font-family: var(--Outfit-font);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 0px;
+  text-align: left;
+  color: var(--color-primary);
+
+}
+
+/* header css end */
+
+/* section-2 css start */
+
+.section-2 {
+  padding: 70px 82px;
+}
+
+.section-2 .healthyFood {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.section-2 .healthyFood .content {
+  background-image: url(../photos/wheatImg-background-home6.png);
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: right bottom;
+  box-shadow: 0px 15px 60px -10px #6D758F54;
+  background-color: var(--color-primary);
+  padding: 80px 49px 75px 80px;
+}
+
+.section-2 .healthyFood .sub-heading {
+  font-family: var(--shadowInto-font);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: var(--color-darkgreen);
+}
+
+.section-2 .healthyFood .heading {
+  font-family: var(--Outfit-font);
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: var(--heading-color);
+  padding-bottom: 20px;
+}
+
+.section-2 .healthyFood .paragraph {
+  font-family: var(--Outfit-font);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  color: var(--section-2-para);
+  width: 94%;
+  padding-bottom: 10px;
+}
+
+.section-2 .healthyFood .our-story {
+  display: flex;
+  flex-direction: row;
+}
+
+.section-2 .healthyFood .our-story i {
+  background-color: var(--color-darkgreen);
+  width: 60px;
+  height: 60px;
+  padding: 19px 0px 0px 26px;
+  border-radius: 50%;
+  color: var(--color-primary);
+}
+
+.section-2 .healthyFood .our-story .circle {
+  width: 60px;
+  height: 60px;
+  background-color: var(--color-darkgreen);
+  border-radius: 50%;
+  margin: 30px 0px 0px -31px;
+}
+
+.section-2 .healthyFood .our-story .text {
+  width: 80%;
+  text-transform: uppercase;
+  font-family: var(--Outfit-font);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 50px;
+  text-align: left;
+  color: var(--heading-color);
+  /* padding-left: 19px; */
+}
+
+
+.section-2 .healthyFood .itemsName .item-1,
+.item-2,
+.item-3,
+.item-4 {
+  direction: rtl;
+  padding-right: 60px;
+  padding-bottom: 20px;
+}
+
+.section-2 .healthyFood .itemsName .icon {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(237, 245, 255, 0.9) 100%);
+  margin-right: 15px;
+
+}
+
+.section-2 .healthyFood .itemsName .text {
+
+  font-family: var(--Outfit-font);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.8px;
+  text-align: right;
+  color: var(--heading-color);
+  margin-right: 20px;
+}
+
+
+.section-2 .healthyFood .itemsName .item-3 .text {
+  margin-right: 5px;
+}
+
+/* section-2 css end */
+
+/* section-3 css start */
+
+.section-3 {
+  background-image: url(../photos/background-section-3home-6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tag {
+  background-color: var(--color-template-btn);
+  width: 200px;
+  height: 195px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px -159px 361px;
+  position: relative;
+}
+
+.tag h4 {
+  font-family: Outfit;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 55px;
+  text-align: center;
+
+}
+
+.tag h5 {
+  font-family: Shadows Into Light Two;
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 43px;
+  text-align: center;
+
+}
+
+.section-3 .content {
+  padding: 140px 73px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-3 .sub-heading {
+  margin-top: 140px;
+  font-family: var(--Outfit-font);
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 72px;
+  text-align: left;
+  color: var(--color-darkgreen);
+}
+
+.section-3 .heading {
+  font-family: var(--Outfit-font);
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 72px;
+  text-align: left;
+  color: var(--heading-color);
+  padding-bottom: 20px;
+}
+
+.section-3 .paragraph {
+  font-family: var(--Outfit-font);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28.8px;
+  width: 53%;
+  text-align: left;
+  color: var(--section-2-para);
+  padding-bottom: 15px;
+}
+
+.section-3 .purchaseNowBtn {
+  width: 200px;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 12px 25px;
+  border-radius: 8px;
+  background-color: #1F4E3D;
+  color: var(--color-primary);
+}
+
+/* section-3 css end */
+
+/* section-4 css start */
+.section-4 {
+  padding: 0px 13px 0px 53px;
+  margin-top: 100px;
+}
+
+.section-4 .organicFood {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+.section-4 .template {
+  background-color: var(--color-darkgreen);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  margin-bottom: 24px;
+
+}
+
+.section-4 .template .heading {
+  width: 80%;
+  font-family: var(--Outfit-font);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: center;
+  color: var(--color-primary);
+}
+
+
+.section-4 .template img {
+  width: 90%;
+  height: 70%;
+}
+
+.section-4 .template span {
+  background-color: var(--color-primary);
+  font-family: var(--Outfit-font);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.6px;
+  text-align: center;
+  color: var(--heading-color);
+  margin-bottom: 40px;
+  padding: 10px 10px;
+}
+
+.section-4 .template .productBtn {
+  padding: 10px 50px;
+  border-radius: 6px;
+  background-color: var(--color-template-btn);
+  font-family: var(--Outfit-font);
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+
+}
+
+
+.section-4 .product-detail {
+  padding-bottom: 56px;
+  padding-left: 57px;
+}
+
+
+.section-4 .foodItems header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.section-4 .foodItems .moneyReturn,
+.memberDiscount {
+  display: flex;
+  flex-direction: row;
+  margin-right: 68px
+}
+
+.section-4 .foodItems .content {
+  padding-left: 5px;
+  padding-top: 10px;
+}
+
+.section-4 .foodItems header img {
+  width: 85%;
+}
+
+.section-4 .foodItems .heading {
+  font-family: var(--Outfit-font);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: var(--heading-color);
+
+}
+
+.section-4 .foodItems .sub-heading {
+  font-family: var(--Outfit-font);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 0px;
+  text-align: left;
+  color: var(--section-2-para);
+  text-transform: uppercase;
+  padding-bottom: 15px;
+
+}
+
+.section-4 .foodItems .cards .cards-div {
+  margin-left: 10px;
+}
+
+.section-4 .foodItems .cards img {
+  padding: 40px 45px 0px 45px;
+}
+
+
+.section-4 .foodItems .cards-div .price {
+  color: var(--color-darkgreen);
+  font-family: var(--Outfit-font);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  padding-bottom: 19px;
+
+}
+
+.section-4 .foodItems .cards-div .priceStrike {
+  color: var(--section-2-para);
+  font-family: var(--Outfit-font);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  padding-right: 6px;
+  padding-bottom: 19px;
+}
+
+.cartBtn {
+  color: var(--heading-color);
+  border-radius: 60px;
+  font-family: var(--Outfit-font);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 15px 20px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.cartBtn i {
+  padding-right: 5px;
+}
+
+
+/* section-4 css end */
+
+/* section-5 css start */
+
+.section-5 {
+  background-color: #E9F1EE;
+
+}
+
+.section-5 main {
+  padding: 0px 50px 100px 75px;
+}
+
+.section-5 .head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 60px 0px 50px 0px;
+}
+
+.section-5 .head .sub-heading {
+  font-family: var(--shadowInto-font);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: var(--color-darkgreen);
+  padding-top: 100px;
+
+}
+
+.section-5 .head .heading {
+  font-family: var(--Outfit-font);
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: center;
+  color: var(--heading-color);
+}
+
+.section-5 .cards .heading {
+  font-family: var(--Outfit-font);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: var(--heading-color);
+}
+
+.section-5 .cards .sub-heading {
+  font-family: var(--Outfit-font);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 0px;
+  text-align: left;
+  color: var(--section-2-para);
+  text-transform: uppercase;
+}
+
+.section-5 .cards img {
+  padding: 30px 40px 0px 40px;
+}
+
+.section-5 .cards .price {
+  color: var(--color-darkgreen);
+  font-family: var(--Outfit-font);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  padding-bottom: 19px;
+}
+
+.section-5 .cards .priceStrike {
+  color: var(--section-2-para);
+  font-family: var(--Outfit-font);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  padding-right: 6px;
+}
+
+.section-5 .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 56px;
+}
+
+/* section-5 css end */
+
+/* section-6 css start */
+
+.section-6 .content {
+  background-color: var(--color-greenish);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 50px 50px 140px;
+
+}
+
+
+.section-6 .content .heading {
+  font-family: var(--Outfit-font);
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: var(--color-primary);
+  width: 53%;
+}
+
+.section-6 .content .paragraph {
+  font-family: var(--Outfit-font);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  width: 64%;
+  text-align: left;
+  color: #CCCCCC;
+  padding-bottom: 29px;
+}
+
+.section-6 .content .loader {
+  display: flex;
+  flex-direction: row;
+}
+
+.section-6 .points {
+  padding-left: 30px;
+  padding-top: 15px;
+}
+
+.points .point-1,
+.point-2,
+.point-3 {
+  font-family: var(--Outfit-font);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 0px;
+  text-align: left;
+  color: #F8F9FA;
+  margin: 20px 0px 0px 0px;
+}
+
+.points i {
+  width: 16px;
+  font-size: 10px;
+  height: 16px;
+  padding: 2px 2px 1px 2px;
+  border-radius: 3px;
+  margin-right: 10px;
+  border: 0.4px solid #FFFFFF66;
+}
+
+.section-6 .loader-img {
+  border-right: 1px solid #FFFFFF4D;
+  padding-right: 60px;
+
+}
+
+.section-6 .loader-div {
+
+  border: 2px solid #77a578;
+  border-radius: 50%;
+  border-bottom: 2px solid var(--color-primary);
+  transform: rotate(45deg);
+  width: 130px;
+  height: 130px;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: -20%;
+  margin-bottom: 10px;
+
+}
+
+
+.section-6 .loader .percentage {
+  color: var(--color-sub-heading);
+  position: relative;
+  top: 40%;
+  left: 30%;
+  font-size: 24px;
+  font-family: var(--Outfit-font);
+
+}
+
+.section-6 .loader-img p {
+  font-family: var(--Outfit-font);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  color: var(--color-primary);
+  padding-left: 19px;
+}
+
+.section-6 .bottom-img {
+  padding: 0px;
+  width: 25%;
+  margin: -170px 0px 0px 1412px;
+}
+
+/* section-6 css end */
+
+/* section-7 css start */
+.section-7 img {
+  width: 56%;
+  padding: 40px 30px 30px 54px;
+}
+
+.section-7 {
+  padding: 100px 77px;
+}
+
+.section-7 .card {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 0px 68px 0px #AEAFAF2B;
+  border: none;
+}
+
+.section-7 .heading {
+  font-family: var(--Outfit-font);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  text-align: left;
+  color: var(--heading-color);
+  padding-bottom: 10px;
+}
+
+.section-7 .sub-heading {
+  font-family: var(--Outfit-font);
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 500;
+  height: 10px;
+  text-align: left;
+  color: var(--section-2-para);
+}
+
+.section-7 .price {
+  color: var(--color-darkgreen);
+  font-family: var(--Outfit-font);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  padding-bottom: 19px;
+
+}
+
+.section-7 .priceStrike {
+  color: var(--section-2-para);
+  font-family: var(--Outfit-font);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  padding-right: 6px;
+}
+
+.section-7 .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* section-7 css end */
+
+/* section-8 css start */
+.section-8 {
+  background-color: #E9F1EE;
+  background-image: url(../photos/section-8-home-6.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-8 .head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px 50px 0px;
+}
+
+.section-8 .head .sub-heading {
+  font-family: var(--shadowInto-font);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: var(--color-darkgreen);
+  padding-top: 100px;
+
+}
+
+.section-8 .head .heading {
+  font-family: var(--Outfit-font);
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: center;
+  color: var(--heading-color);
+}
+
+
+.section-8 .card-background {
+  background-color: #ffffff96;
+  width: 47%;
+  height: 13px;
+  border-radius: 7px 7px 0px 0px;
+}
+
+.section-8 .card {
+  width: 50%;
+  margin-bottom: 330px;
+  border-radius: 15px;
+
+}
+
+.section-8 .card .blog-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10% 10% 0% 10%;
+  margin-bottom: -154px;
+}
+
+.section-8 .card .paragraph {
+  font-family: var(--Outfit-font);
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 45px;
+  text-align: center;
+  color: var(--heading-color);
+
+}
+
+.section-8 .card .girlImg {
+  width: 18%;
+  border-radius: 50%;
+  margin-top: 50px;
+  outline: 10px solid var(--color-primary);
+}
+
+
+
+.star {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3%;
+  color: var(--color-sub-heading);
+}
+
+.star i {
+  font-size: 24px;
+}
+
+.star .author {
+  margin-bottom: -116px;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.author p {
+  font-family: var(--Outfit-font);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 45px;
+  text-align: center;
+  color: var(--color-darkgreen);
+  text-transform: uppercase;
+
+}
+
+.author h3 {
+  font-family: var(--Outfit-font);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33.6px;
+  text-align: center;
+  color: var(--heading-color);
+  margin-top: 3%;
+}
+
+.section-8 .author .circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--color-darkgreen);
+  position: absolute;
+  margin-left: 348px;
+  margin-top: 35px;
+}
+
+.section-8 .author .circle img {
+  height: 15px;
+}
+
+
+/* section-8 css end */
+
+/* section-9 css start */
+.section-9 {
+  margin-bottom: 75px;
+}
+
+.section-9 .head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 200px 0px 30px 0px;
+}
+
+.section-9 .head .sub-heading {
+  font-family: var(--shadowInto-font);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: var(--color-darkgreen);
+}
+
+.section-9 .head .heading {
+  font-family: var(--Outfit-font);
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 52px;
+  text-align: center;
+  color: var(--heading-color);
+  margin-bottom: 20px;
+}
+
+.section-9 .lastCards {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 70px;
+}
+
+.section-9 .lastCards .card-heading {
+  font-family: var(--Outfit-font);
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 43px;
+  text-align: left;
+  color: var(--color-Lastcard-color);
+  position: relative;
+  z-index: 1;
+
+}
+
+.section-9 .lastCards .paragraph {
+  font-family: var(--Outfit-font);
+  font-size: 15.5px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: var(--color-Lastcard-color);
+  position: relative;
+  z-index: 1;
+}
+
+.section-9 .lastCards .para2 {
+  font-family: var(--Outfit-font);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 15px;
+  text-align: left;
+  color: var(--color-Lastcard-color);
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+}
+
+.section-9 .lastCards .sub-head {
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+}
+
+.section-9 .lastCards .blog-body {
+  padding-bottom: 0px;
+  margin: -78px 0px 0px -16px;
+}
+
+.section-9 .lastCards .blog-body .heading {
+  font-family: var(--Outfit-font);
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  color: var(--heading-color);
+
+}
+
+.section-9 .lastCards .blog-body .square {
+  width: 80px;
+  height: 60px;
+  padding: 10px 0px 0px 0px;
+  background-color: #F7C35F;
+  text-align: center;
+  font-family: var(--Outfit-font);
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-bottom: 0px;
+
+}
+
+.section-9 .lastCards .blog-body .aug {
+  width: 80px;
+  height: 35px;
+  padding: 5px 4px 5px 4px;
+  background-color: var(--color-darkgreen);
+  font-family: var(--Outfit-font);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  color: var(--color-Lastcard-color);
+}
+
+.section-9 .lastCards .sub-head .name,
+.nameDate {
+  font-family: var(--Outfit-font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: var(--itemsPara-color);
+
+}
+
+.section-9 .lastCards .sub-head .nameDate {
+  margin-left: 10px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.section-9 .lastCards .blog-body .para2 {
+  color: var(--heading-color);
+  text-transform: uppercase;
+}
+
+.section-9 .lastCards .wheat-img {
+  height: 96%;
+}
+
+
+.section-9 .lastCards .para2 i {
+  margin: 0px 0px 0px 7px;
+  padding-top: 1px;
+}
+
+.section-9 .card-1::after {
+  content: "";
+  position: absolute;
+  bottom: 16px;
+  left: 0;
+  width: 96.5%;
+  height: 250px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.7) 30%, rgba(0, 0, 0, 0) 100%);
+}
+
+
+/* section-9 css end */
